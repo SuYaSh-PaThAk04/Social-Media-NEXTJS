@@ -8,7 +8,7 @@ import { toast } from "sonner";
 import axios from "axios";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-
+import api from "@/lib/api";
 export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -24,7 +24,7 @@ export default function LoginPage() {
 
     setLoading(true);
     try {
-      const res = await axios.post("https://social-media-nextjs.onrender.com/auth/login", {
+      const res = await api.post("https://social-media-nextjs.onrender.com/auth/login", {
         email,
         password,
       });
