@@ -29,7 +29,7 @@ export default function CreatePostPage() {
       }
 
       await axios.post(
-        "http://localhost:3000/posts/create",
+        "https://social-media-nextjs.onrender.com/posts/create",
         { title, description },
           {
          headers: {
