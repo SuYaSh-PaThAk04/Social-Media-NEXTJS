@@ -16,7 +16,7 @@ export default function ProfilePage() {
         }
 
 
-        const profileRes = await fetch("http://localhost:3000/users/profile", {
+        const profileRes = await fetch("https://social-media-nextjs.onrender.com/users/profile", {
           headers: { Authorization: `Bearer ${token}` },
         });
         if (!profileRes.ok) throw new Error("Failed to fetch profile");
@@ -27,7 +27,7 @@ export default function ProfilePage() {
 
 
         const postsRes = await fetch(
-          `http://localhost:3000/posts/my-posts?userId=${profileData._id}`,
+          `https://social-media-nextjs.onrender.com/posts/my-posts?userId=${profileData._id}`,
           {
             headers: { Authorization: `Bearer ${token}` },
           }
