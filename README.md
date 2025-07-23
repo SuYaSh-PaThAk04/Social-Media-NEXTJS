@@ -2,7 +2,7 @@ Social Media App
 A full-stack social media application built with Next.js (Frontend) and NestJS (Backend), featuring authentication, posts, likes, and real-time notifications.
 
 🚀 Live Demo
-Frontend: https://social-media-nextjs.vercel.app
+Frontend: [https://social-media-nextjs.vercel.app](https://social-media-nextjs-xi.vercel.app/)
 
 Backend API: https://social-media-nextjs.onrender.com
 (Currently deployed frontend is having issue with api requests i'm trying to fix it so the url may not work but backend is full functional )
