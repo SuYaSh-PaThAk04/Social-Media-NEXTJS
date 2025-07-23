@@ -14,7 +14,7 @@ export const NotificationProvider = ({ children }: { children: React.ReactNode }
   const [notifications, setNotifications] = useState<string[]>([]);
 
   useEffect(() => {
-    if (typeof window === "undefined") return; // ✅ SSR safe
+    if (typeof window === "undefined") return;
     const userId = localStorage.getItem("userId");
 
     if (!userId) {
@@ -28,10 +28,7 @@ export const NotificationProvider = ({ children }: { children: React.ReactNode }
       return;
     }
 
-    console.log("✅ Listening for real-time notifications...");
-
     socket.on("notification", (data: { message: string }) => {
-      console.log("📩 Notification received:", data);
       setNotifications((prev) => [data.message, ...prev]);
     });
 
