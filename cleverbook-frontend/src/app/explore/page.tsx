@@ -30,7 +30,7 @@ export default function ExplorePage() {
           return;
         }
 
-        const profileRes = await axios.get("http://localhost:3000/users/profile", {
+        const profileRes = await axios.get("https://social-media-nextjs.onrender.com/users/profile", {
           headers: { Authorization: `Bearer ${token}` },
         });
 
