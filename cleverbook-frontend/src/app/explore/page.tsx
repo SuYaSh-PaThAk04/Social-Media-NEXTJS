@@ -37,7 +37,7 @@ export default function ExplorePage() {
         const userId = profileRes.data._id;
 
         const res = await axios.get(
-          `http://localhost:3000/posts/following?userId=${userId}`,
+          `https://social-media-nextjs.onrender.com/posts/following?userId=${userId}`,
           {
             headers: { Authorization: `Bearer ${token}` },
           }
