@@ -21,7 +21,7 @@ export default function SignupPage() {
       toast.error("Please fill all fields");
       return;
     }
-
+//
     setLoading(true);
     try {
       const res = await axios.post("https://social-media-nextjs.onrender.com/auth/signup", {
