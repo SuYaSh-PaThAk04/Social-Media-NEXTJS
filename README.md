@@ -144,5 +144,5 @@ Suyash Pathak
 
 GitHub: SuYaSh-PaThAk04
 
-LinkedIn: Your LinkedIn Profile
+LinkedIn: www.linkedin.com/in/suyash-pathak-4347b5283
 
