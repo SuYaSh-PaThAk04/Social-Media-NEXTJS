@@ -5,6 +5,10 @@ A full-stack social media application built with Next.js (Frontend) and NestJS (
 Frontend: [https://social-media-nextjs.vercel.app](https://social-media-nextjs-xi.vercel.app/)
 
 Backend API: https://social-media-nextjs.onrender.com
+
+DEMO Credentials: 
+email : 1234@1234
+password : 90909090
 (Currently deployed frontend is having issue with api requests i'm trying to fix it so the url may not work but backend is full functional )
 
 Postman Collection - https://suyash-9446953.postman.co/workspace/Suyash's-Workspace~5f6ecb9f-cdd9-4d5a-8747-0270e794743a/collection/45090808-9fcf969a-d86b-491d-9e44-7bbb31724ad8?action=share&creator=45090808
