@@ -20,13 +20,13 @@ export default function HomePage() {
           return;
         }
 
-        const res = await axios.get("http://localhost:3000/users/all", {
+        const res = await axios.get("https://social-media-nextjs.onrender.com/users/all", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
         });
 
-        const profileRes = await axios.get("http://localhost:3000/users/profile", {
+        const profileRes = await axios.get("https://social-media-nextjs.onrender.com/users/profile", {
           headers: { Authorization: `Bearer ${token}` },
         });
 
@@ -48,7 +48,7 @@ export default function HomePage() {
     try {
       const token = localStorage.getItem("token");
       await axios.post(
-        `http://localhost:3000/users/follow/${id}`,
+        `https://social-media-nextjs.onrender.com/users/follow/${id}`,
         {},
         {
           headers: { Authorization: `Bearer ${token}` },
@@ -66,7 +66,7 @@ export default function HomePage() {
     try {
       const token = localStorage.getItem("token");
       await axios.post(
-        `http://localhost:3000/users/unfollow/${id}`,
+        `https://social-media-nextjs.onrender.com/users/unfollow/${id}`,
         {},
         {
           headers: { Authorization: `Bearer ${token}` },
