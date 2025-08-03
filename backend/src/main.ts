@@ -5,7 +5,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.useGlobalPipes(new ValidationPipe()); // Validates incoming data automatically
   app.enableCors({
-    origin: 'http://localhost:3001',
+    origin: 'https://vercel.com/suyash-pathak04s-projects/social-media-nextjs/2sc5TSGEEhXm2G3duDRCAECMWLQG','https://social-media-nextjs-xi.vercel.app,
     credentials: true, 
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     allowedHeaders: 'Content-Type, Accept, Authorization',
