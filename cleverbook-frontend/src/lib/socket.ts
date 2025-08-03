@@ -11,7 +11,7 @@ export const initSocket = (): Socket | null => {
   }
 
   if (!socket) {
-    socket = io("http://localhost:5000", {
+    socket = io("https://social-media-nextjs.onrender.com", {
       transports: ["websocket"],
       query: { userId },
     });
