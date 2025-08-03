@@ -30,14 +30,14 @@ export default function ExplorePage() {
           return;
         }
 
-        const profileRes = await axios.get("http://localhost:3000/users/profile", {
+        const profileRes = await axios.get("https://social-media-nextjs.onrender.com/users/profile", {
           headers: { Authorization: `Bearer ${token}` },
         });
 
         const userId = profileRes.data._id;
 
         const res = await axios.get(
-          `http://localhost:3000/posts/following?userId=${userId}`,
+          `https://social-media-nextjs.onrender.com/posts/following?userId=${userId}`,
           {
             headers: { Authorization: `Bearer ${token}` },
           }
