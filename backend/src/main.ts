@@ -11,6 +11,7 @@ async function bootstrap() {
     origin: [
       'https://vercel.com/suyash-pathak04s-projects/social-media-nextjs/2sc5TSGEEhXm2G3duDRCAECMWLQG',
       'https://social-media-nextjs-xi.vercel.app',
+      'http://localhost:3000',
     ],
     credentials: true,
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
