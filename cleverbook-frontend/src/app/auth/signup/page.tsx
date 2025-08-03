@@ -24,7 +24,7 @@ export default function SignupPage() {
 
     setLoading(true);
     try {
-      const res = await axios.post("http://localhost:3000/auth/signup", {
+      const res = await axios.post("https://social-media-nextjs.onrender.com/auth/signup", {
         username,
         email,
         password,
