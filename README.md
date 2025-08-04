@@ -122,19 +122,7 @@ Feel free to fork and contribute by submitting a pull request.
 📬 Contact
 For any questions or feedback, connect on Twitter or email at your@email.com.
 
-yaml
-Copy
-Edit
 
 ---
 
-Let me know if you'd like a badge (build passing, license, etc.), deployment instructions (e.g. for Vercel & Render), or to include screenshots/gifs.
 
-
-
-
-
-
-
-
-Ask ChatGPT
